@@ -7,8 +7,31 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "base_keymap": "VSCode",
-  "theme": "One Dark",
-  "buffer_font_size": 15,
-  "ui_font_family": "Geist Mono"
+  "theme": "Vesper",
+  // "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  // "buffer_font_family": "MesloLGM Nerd Font Mono",
+  "buffer_font_family": "Dank Mono",
+  "cursor_shape": "block",
+  "tabs": { "git_status": true },
+  "vim_mode": false,
+  // "show_copilot_suggestions": false,
+  // "features": { "copilot": false },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "project_panel": {
+    "dock": "right"
+  },
+  "vim": {
+    "use_multiline_find": true,
+    "use_system_clipboard": "always"
+  },
+  "buffer_line_height": { "custom": 1.45 },
+  "relative_line_numbers": true,
+  "cursor_blink": false,
+  "terminal": { "blinking": "off" },
+  "ensure_final_newline_on_save": false,
+  "format_on_save": "off",
+  "chat_panel": { "button": false },
+  "notification_panel": { "button": false },
+  "collaboration_panel": { "button": false }
 }
