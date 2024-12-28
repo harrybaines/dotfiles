@@ -20,12 +20,13 @@ local config = wezterm.config_builder()
 --indexed = { [16] = "#ffbd5e", [17] = "#ff6e5e" },
 --}
 
---config.font = wezterm.font("CaskaydiaMono NF")
-config.font = wezterm.font("JetBrains Mono")
+config.font = wezterm.font("CaskaydiaMono NF")
+--config.font = wezterm.font("JetBrains Mono")
 config.font_size = 18
 config.line_height = 1.25
 
-config.color_scheme = "Sonokai (Gogh)"
+config.color_scheme = "Tokyo Night"
+--config.color_scheme = "Sonokai (Gogh)"
 --config.color_scheme = "Catppuccin Mocha"
 config.enable_tab_bar = false
 
