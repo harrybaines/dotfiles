@@ -6,36 +6,36 @@ local config = wezterm.config_builder()
 
 --config.colors = require("cyberdream")
 
---config.colors = {
---cursor_bg = "#5eff6c",
---foreground = "#ffffff",
---background = "#16181a",
---cursor_border = "#ffffff",
---selection_fg = "#ffffff",
---selection_bg = "#3c4048",
---scrollbar_thumb = "#16181a",
---split = "#16181a",
---ansi = { "#16181a", "#ff6e5e", "#5eff6c", "#f1ff5e", "#5ea1ff", "#bd5eff", "#5ef1ff", "#ffffff" },
---brights = { "#3c4048", "#ff6e5e", "#5eff6c", "#f1ff5e", "#5ea1ff", "#bd5eff", "#5ef1ff", "#ffffff" },
---indexed = { [16] = "#ffbd5e", [17] = "#ff6e5e" },
---}
+config.colors = {
+	cursor_bg = "#5eff6c",
+}
 
-config.font = wezterm.font("CaskaydiaMono NF")
+-- Fonts
+--config.font = wezterm.font("CaskaydiaMono NF")
 --config.font = wezterm.font("JetBrains Mono")
+--config.font = wezterm.font("0xProto")
+--config.font = wezterm.font("Dank Mono")
+config.font = wezterm.font("CaskaydiaCove NFM")
+config.bold_brightens_ansi_colors = true -- Automatically handles bold fonts
+config.cursor_blink_rate = 0 -- Keeps the cursor as a static beam
+
 config.font_size = 18
 config.line_height = 1.25
 
-config.color_scheme = "Tokyo Night"
+-- Colors
+--config.color_scheme = "Tokyo Night"
 --config.color_scheme = "Sonokai (Gogh)"
---config.color_scheme = "Catppuccin Mocha"
+config.color_scheme = "Catppuccin Mocha"
+--config.color_scheme = "Gruvbox dark, medium (base16)"
+
 config.enable_tab_bar = false
 
-config.initial_rows = 40
+config.initial_rows = 56
 config.initial_cols = 180
 
 config.window_decorations = "RESIZE"
---config.window_background_opacity = 0.9
-config.macos_window_background_blur = 30
+config.window_background_opacity = 0.96
+--config.macos_window_background_blur = 30
 
 config.default_prog = { "/bin/zsh" }
 
