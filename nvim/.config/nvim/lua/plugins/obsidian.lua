@@ -25,6 +25,21 @@ return {
       },
     },
 
+    templates = {
+      folder = "05. Extras/Templates",
+      date_format = "%Y-%m-%d",
+      time_format = "%H:%M",
+    },
+
+    daily_notes = {
+      folder = "04. Daily Notes",
+      date_format = "%Y-%m-%d",
+      template = "Daily Note",
+    },
+
+    -- because we use markdown.nvim
+    ui = { enable = false },
+
     -- see below for full list of options 👇
   },
 }

@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="./images/coding.jpg" alt="My Coding Setup" width="800"/>
   <h1>🚀 My Dotfiles</h1>
-  <p>A carefully curated collection of my personal development environment configurations</p>
+  <p>A collection of my personal development environment configurations</p>
+  <img src="./images/setup-latest.png" alt="My Setup - Latest (18/02/2025)" width="800"/>
 </div>
 
 ## 🚀 Installation
 
-These dotfiles are managed using [GNU Stow](https://www.gnu.org/software/stow/), a symlink farm manager that makes it easy to maintain dotfiles.
+These dotfiles are managed using [GNU Stow](https://www.gnu.org/software/stow/), a symlink farm manager that makes it easy to maintain dotfiles. If you'd like to try my setup for yourself, follow the steps below.
 
 1. First, clone this repository:
 
@@ -39,21 +39,11 @@ These dotfiles are managed using [GNU Stow](https://www.gnu.org/software/stow/),
    stow nvim
    ```
 
-## 🛠️ Requirements
-
-- GNU Stow
-- Git
-- Terminal emulator
-
 ## 📝 Notes
 
 - Backup your existing configurations before installing these dotfiles
 - Some configurations might need additional software to be installed
 - Feel free to cherry-pick the configurations you want to use
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
