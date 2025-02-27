@@ -6,7 +6,31 @@ return {
     opts = function(_, opts)
       opts.transparent = true
       opts.italic_comments = true
-      opts.borderless_telescope = false
+      opts.borderless_pickers = false
+    end,
+  },
+
+  {
+    "AlexvZyl/nordic.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("nordic").load()
+    end,
+  },
+
+  {
+    "shaunsingh/nord.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.g.nord_contrast = true
+      vim.g.nord_borders = false
+      vim.g.nord_disable_background = false
+      vim.g.nord_italic = false
+      vim.g.nord_uniform_diff_background = true
+      vim.g.nord_bold = false
+      vim.cmd.colorscheme("nord")
     end,
   },
 
@@ -79,7 +103,7 @@ return {
     },
     config = function(_, opts)
       require("rose-pine").setup(opts)
-      vim.cmd("colorscheme rose-pine")
+      --vim.cmd("colorscheme rose-pine")
     end,
   },
 }

@@ -12,22 +12,23 @@ config.colors = {
 
 -- Fonts
 --config.font = wezterm.font("CaskaydiaMono NF")
-config.font = wezterm.font("JetBrains Mono")
---config.font = wezterm.font("0xProto")
+--config.font = wezterm.font("JetBrains Mono")
+config.font = wezterm.font("0xProto Nerd Font Propo")
 --config.font = wezterm.font("Dank Mono")
 --config.font = wezterm.font("CaskaydiaCove NFM")
 config.bold_brightens_ansi_colors = true -- Automatically handles bold fonts
 config.cursor_blink_rate = 0 -- Keeps the cursor as a static beam
 
-config.font_size = 21
-config.line_height = 1.15
+config.font_size = 20
+config.line_height = 1.25
 
 -- Colors
---config.color_scheme = "Tokyo Night"
+config.color_scheme = "Tokyo Night"
 --config.color_scheme = "Sonokai (Gogh)"
 --config.color_scheme = "Catppuccin Mocha"
 --config.color_scheme = "Gruvbox dark, medium (base16)"
-config.color_scheme = "rose-pine"
+--config.color_scheme = "rose-pine"
+--config.color_scheme = "Nord (Gogh)"
 
 config.enable_tab_bar = false
 
@@ -35,8 +36,8 @@ config.initial_rows = 55
 config.initial_cols = 180
 
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.96
---config.macos_window_background_blur = 30
+config.window_background_opacity = 0.9
+config.macos_window_background_blur = 30
 
 config.default_prog = { "/bin/zsh" }
 
